@@ -3,28 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>web-studio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+              integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+              crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/styles.css" >
     </head>
     <body>
 
-        <header>
+        <header class="page-header">
 
-            <nav>
-                <a href="./index.html">WebStudio</a>
-                <ul>
-                    <li><a href="#Studio">Studio</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#Contacts">Contacts</a></li>
+            <nav class="page-nav">
+                <a class="logo link" href="./index.html"><span class="blue-text">web</span>studio</a>
+                <ul class="list menu">
+                    <li><a class="link" href="#Studio">Studio</a></li>
+                    <li><a class="link" href="#Portfolio">Portfolio</a></li>
+                    <li><a class="link" href="#Contacts">Contacts</a></li>
                 </ul>
             </nav>
             
-            <address>
-                <ul>
+            <address class="address-list">
+                <ul class="list">
                     <li>
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br >
+                        <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a> <br >
                     </li>
                     <li>
-                        <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </address>
@@ -34,16 +41,16 @@
         <main>
 
             <section>
-                <h1>
+                <h1 class="text-hero">
                     Effective Solutions 
                     for Your Business
                 </h1>
-                <button type="button">Order Service</button>
+                <button class="order-button" type="button">Order Service</button>
             </section>
 
             <section>
                 <h2>section 2</h2>
-                <ul>
+                <ul class="list">
                     <li>
                         <h3>Strategy</h3>
                         <p>
@@ -194,7 +201,7 @@
 
         <footer>
 
-            <a href="./index.html">WebStudio</a>
+            <a class="logo" class="link" href="./index.html"><span>web</span>studio</a>
             <p>
                 Increase the flow of customers and 
                 sales for your business with digital 

@@ -1,0 +1,35 @@
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style-type: none;
+}
+button {
+    cursor: pointer;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navyblue, #2E2F42);
+}
+.blue-text {
+    color: var(--iris, #4D5AE5);
+}
+.menu {
+    color: var(--navyblue, #2E2F42);
+    
+        /* Body 
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
