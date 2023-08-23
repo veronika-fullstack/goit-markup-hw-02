@@ -9,18 +9,21 @@ button {
 }
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--slate, #434455);
+    background: var(--white, #FFF);
 }
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navyblue, #2E2F42);
-}
-.blue-text {
     color: var(--iris, #4D5AE5);
+    
+}
+.black-text {
+    color: var(--navyblue, #2E2F42);
 }
 .white-text {
     color: var(--cloud, #F4F4FD);
@@ -45,7 +48,6 @@ h3 {
     letter-spacing: 0.02em;
 }
 p{
-    color: var(--slate, #434455);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
