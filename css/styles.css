@@ -54,14 +54,15 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.menu a {
+.menu {
     color: var(--navyblue, #2E2F42);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.menu a:active {
+.menu:hover,
+.menu:focus {
     color: var(--ocean, #404BBF);
 }
 .address-list  {
@@ -103,6 +104,9 @@ body {
 }
 .team-section {
     background: var(--cloud, #F4F4FD);
+}
+.card {
+    background-color: var(--cloud, #FFFFFF);
 }
 .page-footer {
     background: var(--navyblue, #2E2F42);
